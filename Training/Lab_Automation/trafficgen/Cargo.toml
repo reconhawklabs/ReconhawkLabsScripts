@@ -1,0 +1,16 @@
+[package]
+name = "trafficgen"
+version = "0.1.0"
+edition = "2021"
+description = "Cyber range traffic emulator for blue team training"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "cookies", "gzip"] }
+scraper = "0.22"
+url = "2"
+ipnetwork = "0.20"
+rand = "0.8"
+dialoguer = "0.11"
+console = "0.15"
+libc = "0.2"

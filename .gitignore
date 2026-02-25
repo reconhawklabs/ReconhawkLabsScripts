@@ -34,3 +34,6 @@
 # Ignore all local history of files
 .history
 .ionide
+
+#Rust Code
+Training/Lab_Automation/trafficgen/target
